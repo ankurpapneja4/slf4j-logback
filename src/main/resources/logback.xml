@@ -3,8 +3,8 @@
     <!-- Create Appender to Write Messages to Console-->
     <appender name="Console" class="ch.qos.logback.core.ConsoleAppender">
         <encoder>
-            <!-- Pattern  = DATE MESSAGE NEW-LINE -->
-            <pattern>%d %msg %n</pattern>
+            <!-- Pattern  = DATE LOGGING-LEVEL LOGGER-NANE MESSAGE NEW-LINE -->
+            <pattern>%d %level %logger %msg %n</pattern>
         </encoder>
     </appender>
 
